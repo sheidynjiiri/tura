@@ -243,6 +243,7 @@ p { margin: 0 0 1em; }
   border: 1px solid var(--line);
 }
 .cabin .ph { border-radius: 0; aspect-ratio: 4 / 3; }
+.cards--2 .cabin .ph { aspect-ratio: 16 / 9; }
 .cabin__body { padding: 26px 26px 30px; display: flex; flex-direction: column; flex: 1; }
 .cabin__price { font-family: var(--serif); font-size: 1.9rem; margin: 0.2em 0 0.1em; }
 .cabin__price small { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
