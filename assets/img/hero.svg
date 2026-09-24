@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2a21"/>
+      <stop offset="0.55" stop-color="#4a4a3a"/>
+      <stop offset="0.85" stop-color="#c47a4a"/>
+      <stop offset="1" stop-color="#e2a574"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd59a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffd59a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1180" cy="560" r="46" fill="#f2c28c" opacity="0.9"/>
+  <!-- Mt Kenya -->
+  <path d="M760 620 L960 360 L995 400 L1030 330 L1070 390 L1110 370 L1330 620 Z" fill="#5a5a4a" opacity="0.75"/>
+  <path d="M960 360 L995 400 L1030 330 L1070 390 L1110 370 L1080 420 L1050 395 L1020 430 L990 410 L965 430 Z" fill="#e9e1d2" opacity="0.8"/>
+  <path d="M0 640 C220 560 380 600 560 570 C760 540 900 610 1100 590 C1300 570 1450 600 1600 560 L1600 1000 L0 1000 Z" fill="#3a4a38"/>
+  <path d="M0 740 C200 680 420 720 620 690 C820 660 1000 730 1220 700 C1400 676 1500 700 1600 680 L1600 1000 L0 1000 Z" fill="#2b3d2f"/>
+  <!-- trees -->
+  <g fill="#1d2a21">
+    <path d="M120 760 l30 -120 l30 120 z"/><path d="M170 770 l24 -95 l24 95 z"/>
+    <path d="M1380 740 l34 -140 l34 140 z"/><path d="M1440 752 l26 -100 l26 100 z"/>
+    <path d="M1310 760 l22 -80 l22 80 z"/>
+  </g>
+  <!-- cabin -->
+  <g transform="translate(640 700)">
+    <ellipse cx="120" cy="30" rx="210" ry="90" fill="url(#glow)" opacity="0.5"/>
+    <path d="M0 80 L0 0 L120 -90 L240 0 L240 80 Z" fill="#141c16"/>
+    <path d="M-14 6 L120 -100 L254 6" fill="none" stroke="#141c16" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M70 80 L70 -8 L120 -48 L170 -8 L170 80 Z" fill="#ffcf8a"/>
+    <path d="M120 -48 L120 80 M70 20 L170 20" stroke="#141c16" stroke-width="4"/>
+    <rect x="-40" y="80" width="320" height="10" fill="#141c16"/>
+  </g>
+  <path d="M0 830 C300 790 600 840 900 810 C1200 780 1400 820 1600 800 L1600 1000 L0 1000 Z" fill="#1d2a21"/>
+  <rect width="1600" height="1000" fill="url(#shade)"/>
+</svg>
