@@ -8,6 +8,7 @@ Static site for Tũra Cabins: plain HTML, CSS and a little JavaScript. No build 
 | --- | --- |
 | `/` | `index.html` (guests: cabins, places, FAQ, waitlist) |
 | `/host/` | `host/index.html` (landowner partnership) |
+| `/rest/` | `rest/index.html` (Tũra Rest: rest units for Airbnb hosts, resorts and lodges) |
 | `/thanks/` | `thanks/index.html` (shown after a form is sent) |
 | 404 | `404.html` |
 
@@ -27,7 +28,7 @@ python3 -m http.server 8000
 
 ## Forms
 
-The waitlist form (home page) and the landowner form (`/host/`) use [Netlify Forms](https://docs.netlify.com/forms/setup/).
+The waitlist form (home page), the landowner form (`/host/`) and the Tũra Rest partner form (`/rest/`, form name `rest-partner`) use [Netlify Forms](https://docs.netlify.com/forms/setup/).
 Submissions appear in the Netlify dashboard under **Forms**, where you can also set up email notifications.
 
 ## Deploying
